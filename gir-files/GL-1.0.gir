@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- This file was automatically generated from C sources - DO NOT EDIT!
+To affect the contents of this file, edit the original C definitions,
+and/or use gtk-doc annotations.  -->
+<repository version="1.2"
+            xmlns="http://www.gtk.org/introspection/core/1.0"
+            xmlns:c="http://www.gtk.org/introspection/c/1.0"
+            xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <namespace name="GL"
+             version="1.0"
+             shared-library=""
+             c:identifier-prefixes="GL"
+             c:symbol-prefixes="gl">
+    <function name="InitNames" c:identifier="glInitNames">
+      <return-value transfer-ownership="none">
+        <type name="none" c:type="void"/>
+      </return-value>
+    </function>
+    <record name="bitfield" c:type="GLbitfield">
+    </record>
+    <record name="boolean" c:type="GLboolean">
+    </record>
+    <record name="charARB" c:type="GLcharARB">
+    </record>
+    <record name="clampf" c:type="GLclampf">
+    </record>
+    <record name="enum" c:type="GLenum">
+    </record>
+    <record name="float" c:type="GLfloat">
+    </record>
+    <record name="handleARB" c:type="GLhandleARB">
+    </record>
+    <record name="int" c:type="GLint">
+    </record>
+    <record name="intptr" c:type="GLintptr">
+    </record>
+    <record name="sizei" c:type="GLsizei">
+    </record>
+    <record name="sizeiptr" c:type="GLsizeiptr">
+    </record>
+    <record name="uint" c:type="GLuint">
+    </record>
+    <record name="void" c:type="GLvoid">
+    </record>
+  </namespace>
+</repository>

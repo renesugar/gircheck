@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- This file was automatically generated from C sources - DO NOT EDIT!
+To affect the contents of this file, edit the original C definitions,
+and/or use gtk-doc annotations.  -->
+<repository version="1.2"
+            xmlns="http://www.gtk.org/introspection/core/1.0"
+            xmlns:c="http://www.gtk.org/introspection/c/1.0"
+            xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <include name="GObject" version="2.0"/>
+  <package name="dbus-glib-1"/>
+  <namespace name="DBusGLib"
+             version="1.0"
+             shared-library=""
+             c:identifier-prefixes="DBusGLib"
+             c:symbol-prefixes="d_bus_glib">
+    <record name="Connection" c:type="DBusGConnection">
+    </record>
+    <record name="MethodInvocation" c:type="DBusGMethodInvocation">
+    </record>
+    <class name="Proxy"
+           c:type="DBusGProxy"
+           parent="GObject.Object"
+           glib:type-name="DBusGProxy"
+           glib:get-type="dbus_g_proxy_get_type">
+    </class>
+    <record name="ProxyClass" c:type="DBusGProxyClass">
+    </record>
+  </namespace>
+</repository>

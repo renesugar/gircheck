@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- This file was automatically generated from C sources - DO NOT EDIT!
+To affect the contents of this file, edit the original C definitions,
+and/or use gtk-doc annotations.  -->
+<repository version="1.2"
+            xmlns="http://www.gtk.org/introspection/core/1.0"
+            xmlns:c="http://www.gtk.org/introspection/c/1.0"
+            xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <package name="libxml-2.0"/>
+  <namespace name="libxml2"
+             version="2.0"
+             shared-library=""
+             c:identifier-prefixes="xml"
+             c:symbol-prefixes="xml">
+    <record name="Char" c:type="xmlChar">
+    </record>
+    <record name="Doc" c:type="xmlDoc">
+    </record>
+    <record name="DocPtr" c:type="xmlDocPtr">
+    </record>
+    <record name="Node" c:type="xmlNode">
+    </record>
+    <record name="NodePtr" c:type="xmlNodePtr">
+    </record>
+    <record name="NsPtr" c:type="xmlNsPtr">
+    </record>
+    <record name="TextReader" c:type="xmlTextReaderPtr">
+    </record>
+    <record name="TextWriter" c:type="xmlTextWriterPtr">
+    </record>
+    <function name="dummy" c:identifier="dummy">
+      <return-value transfer-ownership="none">
+        <type name="none" c:type="void"/>
+      </return-value>
+    </function>
+  </namespace>
+</repository>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- This file was automatically generated from C sources - DO NOT EDIT!
+To affect the contents of this file, edit the original C definitions,
+and/or use gtk-doc annotations.  -->
+<repository version="1.2"
+            xmlns="http://www.gtk.org/introspection/core/1.0"
+            xmlns:c="http://www.gtk.org/introspection/c/1.0"
+            xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <namespace name="freetype2"
+             version="2.0"
+             shared-library=""
+             c:identifier-prefixes="FT"
+             c:symbol-prefixes="FT">
+    <record name="Bitmap" c:type="FT_Bitmap">
+    </record>
+    <record name="Face" c:type="FT_Face">
+    </record>
+    <record name="Library" c:type="FT_Library">
+    </record>
+    <function name="library_version" c:identifier="FT_Library_Version">
+      <return-value transfer-ownership="none">
+        <type name="none" c:type="void"/>
+      </return-value>
+    </function>
+  </namespace>
+</repository>

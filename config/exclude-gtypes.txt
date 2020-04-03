@@ -1,0 +1,10 @@
+DBusConnection
+DBusGProxy
+GDesktopAppInfo
+GDesktopAppInfoLookup
+GSettingsBackend
+GtkPlug
+GtkSocket
+PangoFontsetSimple
+SoupPasswordManager
+SoupRequester
